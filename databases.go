@@ -1,53 +1,53 @@
 package entrez
 
-var DBNames = []string{
-	"pubmed",
-	"protein",
-	"nuccore",
-	"nucleotide",
-	"nucgss",
-	"nucest",
-	"structure",
-	"sparcle",
-	"genome",
-	"annotinfo",
-	"assembly",
-	"bioproject",
-	"biosample",
-	"blastdbinfo",
-	"books",
-	"cdd",
-	"clinvar",
-	"clone",
-	"gap",
-	"gapplus",
-	"grasp",
-	"dbvar",
-	"gene",
-	"gds",
-	"geoprofiles",
-	"homologene",
-	"medgen",
-	"mesh",
-	"ncbisearch",
-	"nlmcatalog",
-	"omim",
-	"orgtrack",
-	"pmc",
-	"popset",
-	"probe",
-	"proteinclusters",
-	"pcassay",
-	"biosystems",
-	"pccompound",
-	"pcsubstance",
-	"pubmedhealth",
-	"seqannot",
-	"snp",
-	"sra",
-	"taxonomy",
-	"biocollections",
-	"unigene",
-	"gencoll",
-	"gtr",
-}
+type (
+	PubMed          string
+	Protein         string
+	Nuccore         string
+	Nucleotide      string
+	Nucgss          string
+	Nucest          string
+	Structure       string
+	Sparcle         string
+	Genome          string
+	AnnotInfo       string
+	Assembly        string
+	BioProject      string
+	BioSample       string
+	BlastdbInfo     string
+	Books           string
+	CDD             string
+	ClinVar         string
+	Clone           string
+	Gap             string
+	GAPPlus         string
+	Grasp           string
+	DBVar           string
+	Gene            string
+	Gds             string
+	GeoProfiles     string
+	Homologene      string
+	MedGen          string
+	MESH            string
+	NCBISearch      string
+	NLMCatalog      string
+	OMIN            string
+	OrgTrack        string
+	PMC             string
+	Popset          string
+	Probe           string
+	ProteinClusters string
+	PCAssay         string
+	BioSystems      string
+	PCCompound      string
+	PCSubstance     string
+	PubMedHealth    string
+	Seqannot        string
+	SNP             string
+	SRA             string
+	Taxonomy        string
+	BioCollections  string
+	UniGene         string
+	GenColl         string
+	GTR             string
+)
